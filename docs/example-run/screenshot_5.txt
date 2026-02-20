@@ -1,0 +1,41 @@
+BLOCKERS:
+- none
+
+PAGE_CONTEXT:
+- Booking.com site, main search page for stays. Primary purpose of the visible area is a search form for hotels, homes, and more.
+
+PRIMARY_INTERACTION:
+- Main interactive region is the date picker (calendar) under the "Check-in date – Check-out date" field. The date fields are active (Wed, Apr 22 — Mon, Apr 27).
+
+OPEN_PANELS:
+- TYPE: calendar
+  TITLE/HEADER: "Calendar"
+  ANCHOR: under the "Check-in date – Check-out date" field
+  POSITION: below search form
+
+PANEL_LAYOUT:
+- LAYOUT: two-pane
+- PANE_TITLES: "March 2026", "April 2026"
+- PANE_ROLES: left: March month grid, right: April month grid
+- REPEATED_ITEMS: repeated day numbers (e.g., "1", "2", "3", etc.)
+
+PANEL_DETAILS:
+- CONTENT: two-month calendar grids (March and April 2026)
+- CONTROLS: "Exact dates", "+ 1 day", "+ 2 days", "+ 3 days", "+ 7 days" (below calendar)
+- NAVIGATION: left arrow "<" and right arrow ">" above pane titles
+- CONFIRM: none
+- LEFT_PANE: March 2026 month grid (days 1-31)
+- RIGHT_PANE: April 2026 month grid (days 1-30)
+
+VISIBLE_FIELDS_AND_VALUES:
+- "Where are you going?": "PARIS"
+- "Check-in date – Check-out date": empty placeholders
+- "2 adults · 0 children · 1 room": visible value
+
+KEY_ACTIONS:
+- "Search" (right side of search form)
+- "+ 1 day", "+ 2 days", "+ 3 days", "+ 7 days" (below calendar)
+
+NOTES:
+- Repeated day numbers in both calendar panes (e.g., "1", "2", "3" appear in left and right grids).
+- Calendar displays two months side by side with repeated day numbers.

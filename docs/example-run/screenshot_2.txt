@@ -1,0 +1,45 @@
+BLOCKERS:
+- none
+
+PAGE_CONTEXT:
+- Booking.com website, main search page for accommodations.
+- Primary purpose of the visible area: search form for hotels.
+
+PRIMARY_INTERACTION:
+- The search form section (including destination, dates, and guest fields).
+- The "Where are you going?" input field looks active (with a dropdown showing location options).
+
+OPEN_PANELS:
+- TYPE: calendar
+  TITLE/HEADER: "Calendar"
+  ANCHOR: under the "Check-in date – Check-out date" field
+  POSITION: below top bar
+
+PANEL_LAYOUT:
+- LAYOUT: two-pane
+- PANE_TITLES: "February 2026", "March 2026"
+- PANE_ROLES: left: February month grid, right: March month grid
+- REPEATED_ITEMS: day numbers (e.g., 1, 2, 3) appear in both panes
+
+PANEL_DETAILS:
+- CONTENT: two-month calendar grids (February and March 2026)
+- CONTROLS: "Exact dates", "+ 1 day", "+ 2 days", "+ 3 days", "+ 7 days"
+- NAVIGATION: month navigation arrows (left/right) next to "February 2026" and "March 2026" headers
+- CONFIRM: none
+- LEFT_PANE: February 2026 month grid
+- RIGHT_PANE: March 2026 month grid
+
+VISIBLE_FIELDS_AND_VALUES:
+- "Where are you going?": "PARIS" (with dropdown showing location options)
+- "Check-in date – Check-out date": empty placeholders
+- "2 adults · 0 children · 1 room": visible value
+
+KEY_ACTIONS:
+- "Search" (right side of search form)
+- "Register" (top right)
+- "Sign in" (top right)
+
+NOTES:
+- The "Where are you going?" input field is visually active with a dropdown.
+- The calendar panel displays two months side by side with repeated day numbers.
+- Day numbers (e.g., 1, 2, 3) appear in both the February and March grids.

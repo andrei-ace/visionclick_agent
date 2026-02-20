@@ -1,0 +1,41 @@
+BLOCKERS:
+- none
+
+PAGE_CONTEXT:
+- Booking.com site, main search page for stays. Primary purpose is the search form for hotels, homes, and more.
+
+PRIMARY_INTERACTION:
+- Main interactive region is the search form; the date picker (calendar) is open and active.
+
+OPEN_PANELS:
+- TYPE: calendar
+  - TITLE/HEADER: "Calendar"
+  - ANCHOR: under the "Check-in date – Check-out date" field
+  - POSITION: below search form
+
+PANEL_LAYOUT:
+- LAYOUT: two-pane
+- PANE_TITLES: "March 2026", "April 2026"
+- PANE_ROLES: left: March month grid, right: April month grid
+- REPEATED_ITEMS: day numbers (e.g., "1", "2", "3") appear in both panes
+
+PANEL_DETAILS:
+- CONTENT: two-month calendar grids (March and April 2026)
+- CONTROLS: "Exact dates", "+ 1 day", "+ 2 days", "+ 3 days", "+ 7 days"
+- NAVIGATION: left arrow (previous month), right arrow (next month) next to "Calendar" header
+- CONFIRM: "Exact dates"
+- LEFT_PANE: March 2026 month grid
+- RIGHT_PANE: April 2026 month grid
+
+VISIBLE_FIELDS_AND_VALUES:
+- "Where are you going?": "PARIS"
+- "Check-in date – Check-out date": empty placeholders
+- "2 adults · 0 children · 1 room": visible value
+
+KEY_ACTIONS:
+- "Search" (right side of search form)
+- "Register" (top right)
+- "Sign in" (top right)
+
+NOTES:
+- Calendar displays two months side by side with repeated day numbers. "Where are you going?" input field is visually active (dropdown visible).

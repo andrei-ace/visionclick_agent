@@ -1,0 +1,12 @@
+[project]
+name = "visionclick_agent"
+version = "0.0.1"
+
+dependencies = [
+    "pyautogui",
+    "Pillow",
+    "langchain",
+    "langchain-ollama",
+    "langchain-core", 
+    "pydantic"
+]

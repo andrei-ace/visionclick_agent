@@ -1,0 +1,41 @@
+BLOCKERS:
+- none
+
+PAGE_CONTEXT:
+- Booking.com site, main search page for stays. Primary purpose of the visible area is the search form.
+
+PRIMARY_INTERACTION:
+- Main interactive region is the date picker (calendar) under the "Check-in date – Check-out date" field. The calendar is active, showing March and April 2026.
+
+OPEN_PANELS:
+- TYPE: calendar
+  TITLE/HEADER: "Calendar"
+  ANCHOR: under the "Check-in date – Check-out date" field
+  POSITION: below search form
+
+PANEL_LAYOUT:
+- LAYOUT: two-pane
+- PANE_TITLES: "March 2026", "April 2026"
+- PANE_ROLES: left: March month grid, right: April month grid
+- REPEATED_ITEMS: repeated day numbers (e.g., "1", "2", "3", etc.) appear in both panes
+
+PANEL_DETAILS:
+- CONTENT: two-month calendar grids (March and April 2026)
+- CONTROLS: "Exact dates", "+ 1 day", "+ 2 days", "+ 3 days", "+ 7 days"
+- NAVIGATION: left arrow "<" and right arrow ">" above pane titles
+- CONFIRM: "Exact dates"
+- LEFT_PANE: March 2026 month grid (days 1-31)
+- RIGHT_PANE: April 2026 month grid (days 1-30)
+
+VISIBLE_FIELDS_AND_VALUES:
+- "Where are you going?": "PARIS"
+- "Check-in date – Check-out date": empty placeholders
+- "2 adults · 0 children · 1 room": visible value
+
+KEY_ACTIONS:
+- "Search" (right side of search form)
+- "Exact dates" (below calendar)
+- "+ 1 day", "+ 2 days", "+ 3 days", "+ 7 days" (below calendar)
+
+NOTES:
+- Calendar displays two months side by side with repeated day numbers. "Exact dates" is the confirm control for the date picker.

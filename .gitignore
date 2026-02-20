@@ -1,0 +1,11 @@
+.DS_Store
+.env
+runs/
+current_screen.png
+
+__pycache__/
+.venv/
+*.egg-info/
+*.egg
+
+build/

@@ -1,0 +1,41 @@
+BLOCKERS:
+- none
+
+PAGE_CONTEXT:
+- Booking.com website, main search page for accommodations.
+- Primary purpose of the visible area: search form for hotels.
+
+PRIMARY_INTERACTION:
+- The search form section (including destination, dates, and guest fields).
+- The "Where are you going?" input field looks active (with a dropdown list visible).
+
+OPEN_PANELS:
+- TYPE: dropdown
+  TITLE/HEADER: none
+  ANCHOR: under the "Where are you going?" input field
+  POSITION: below the search form input field
+
+PANEL_LAYOUT:
+- none
+
+PANEL_DETAILS:
+- CONTENT: list of location options (e.g., "Paris", "Paris City Centre", "Disneyland Paris")
+- CONTROLS: none
+- NAVIGATION: none
+- CONFIRM: none
+- LEFT_PANE: none
+- RIGHT_PANE: none
+
+VISIBLE_FIELDS_AND_VALUES:
+- "Where are you going?": "PARIS" (with dropdown showing location options)
+- "Check-in date — Check-out date": empty placeholders
+- "2 adults · 0 children · 1 room": visible value
+
+KEY_ACTIONS:
+- "Search" (right side of search form)
+- "Register" (top right)
+- "Sign in" (top right)
+
+NOTES:
+- Multiple Paris-related location options in the destination dropdown (e.g., "Paris", "Paris City Centre", "Disneyland Paris") may cause ambiguity for selection.
+- The "Where are you going?" input field is visually active with a dropdown list.
